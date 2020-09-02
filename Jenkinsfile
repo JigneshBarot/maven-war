@@ -1,7 +1,7 @@
 node {
 
    stage('SCM Checkout'){
-	git 'https://github.com/frescoplaylab/maven-war'
+	git 'https://github.com/JigneshBarot/maven-war'
 
    }
 stage('Compile-Package'){
